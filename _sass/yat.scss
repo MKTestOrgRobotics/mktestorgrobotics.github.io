@@ -74,7 +74,7 @@ $on-laptop:        800px !default;
   // } @else {
   //   @return ($dividend / $divisor);
   // }
-  @return 0;
+  @return ($dividend / $divisor);
 }
 
 // Import partials.
